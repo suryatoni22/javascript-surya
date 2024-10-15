@@ -1,0 +1,39 @@
+// primitive= they are call by value: 7 types
+// string, number, boolean, null, undefined, symbol, bigint
+
+//non primitive= they are reference type:
+// array, objects, function
+
+const idlogin= "sjhdhj54"
+console.log(typeof idlogin);
+
+let city= null
+console.log(city);
+
+let houseno;
+console.log(houseno);
+
+let symbol1= Symbol("father")
+let symbol2= Symbol("father")
+console.log(symbol1==symbol2) // it shows false
+
+let Bigint= 446633343366n
+console.log(typeof Bigint);
+
+let string1= ["surya", "akhil",12]
+console.log(string1);
+
+console.log(typeof string1);
+
+let function1= function(){
+    console.log("hello world");
+    
+}
+console.log(typeof function1);  // it is also called function object
+
+
+
+
+
+
+
