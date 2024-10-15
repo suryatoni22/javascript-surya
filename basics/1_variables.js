@@ -2,7 +2,7 @@ const accountId = 97971
 let accountEmail = "surya@google.com"
 var accountPassword = "12345"
 accountCity = "Jammu"  // this is not good way to define variable always use let
-let accountDist;
+let accountDist;// undefined 
 
 // accountId=2 // not allowed
 
